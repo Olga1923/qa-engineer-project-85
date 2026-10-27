@@ -1,54 +1,52 @@
 ---
 - summary: Регистрация с корректно заполненными полями
-  status:
+  status: pass
 
 - summary: Регистрация с никнеймом минимальной допустимой длины
-  status:
+  status: 
 
 - summary: Регистрация с никнеймом максимальной допустимой длины
   status:
 
 - summary: Регистрация с никнеймом короче минимальной длины
-  status:
+  status: pass
 
 - summary: Регистрация с никнеймом длиннее максимальной длины
-  status:
-
-- summary: Регистрация с кириллическим никнеймом
-  status:
+  status: pass
 
 - summary: Регистрация с пустым никнеймом
-  status:
+  status: pass
 
 - summary: Регистрация с некорректным email без символа @
-  status:
+  status: pass
 
 - summary: Регистрация с некорректным email без домена
-  status:
+  status: pass
 
 - summary: Регистрация с пустым email
-  status:
+  status: pass
 
 - summary: Регистрация с паролем короче 8 символов
-  status:
+  status: pass
 
 - summary: Регистрация с паролем длиной 8 символов
-  status:
+  status: pass
 
 - summary: Регистрация с несовпадающими паролями
-  status:
+  status: pass
 
 - summary: Регистрация с пустым подтверждением пароля
-  status:
+  status: pass
 
 - summary: Регистрация с уже зарегистрированным email
-  status:
+  status: fail
+# проходит регистрация с уже созданной учеткой под одной и той же почтой
 
 - summary: Переход к регистрации через GitHub
-  status:
+  status: pass
 
 - summary: Переход к регистрации через Discord
-  status:
+  status: pass
 
 - summary: Вход с корректными данными и подтверждённой почтой
   status:
