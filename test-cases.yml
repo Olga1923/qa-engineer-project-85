@@ -159,7 +159,7 @@
   requirement: Система не должна создавать повторную учётную запись с тем же email
   prerequisites: Email уже использован при регистрации
   test-data: |
-    email: existing-user@example.com
+    email:olgasycheva2006@gmail.com
   steps:
     - Открыть страницу регистрации
     - Ввести ранее зарегистрированный email
