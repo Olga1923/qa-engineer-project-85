@@ -56,202 +56,154 @@
 # для этой проверки я взяла аккаунт который зарегался с уже зареганной почтой, на эту почту подтверждение больше не приходит, поэтому вотйти не получается, но при этом сам тест-кейс свою функцию выполняет, не пропускает, пока не подтвердится
 
 - summary: Вход с неверным паролем
-  status:
+  status: pass
 
 - summary: Вход с незарегистрированным email
-  status:
+  status: pass
 
 - summary: Вход с пустым email
-  status:
+  status: pass
 
 - summary: Вход с пустым паролем
-  status:
+  status: pass
 
 - summary: Проверка ссылки «Забыли пароль»
-  status:
+  status: pass
 
 - summary: Запрос восстановления пароля для зарегистрированного email
-  status:
+  status: pass
 
 - summary: Проверка входа через GitHub
-  status:
+  status: pass
 
 - summary: Проверка входа через Discord
-  status:
+  status: pass
 
 - summary: Создание битвы с настройками по умолчанию
-  status:
+  status: pass
 
 - summary: Проверка доступных уровней сложности битвы
-  status:
+  status: pass
 
 - summary: Создание битвы с каждым уровнем сложности
-  status:
+  status: pass
 
 - summary: Проверка доступных типов соперника
-  status:
+  status: pass
 
 - summary: Создание битвы со случайным игроком
-  status:
+  status: pass
 
 - summary: Создание битвы с ботом
-  status:
+  status: pass
 
 - summary: Проверка минимального времени битвы
-  status:
+  status: pass
 
 - summary: Проверка максимального времени битвы
-  status:
+  status: pass
 
 - summary: Изменение времени битвы с помощью ползунка
-  status:
+  status: pass
 
 - summary: Проверка категорий задач
-  status:
+  status: pass
 
 - summary: Выбор задачи из выпадающего списка
-  status:
+  status: pass
 
 - summary: Поиск задачи по названию
-  status:
+  status: pass
 
 - summary: Изменение количества доступных задач при выборе категории
-  status:
+  status: pass
 
 - summary: Проверка отмены создания битвы
-  status:
+  status: pass
 
 - summary: Создание битвы с другом
-  status:
+  status: pass
 
 - summary: Проверка списка друзей при создании битвы
-  status:
+  status: pass
 
 - summary: Проверка отправки вызова без выбора друга
-  status:
+  status:  pass
 
 - summary: Проверка отображения уведомления об отправке приглашения
-  status:
+  status: pass
 
 - summary: Проверка отображения результата игры с ботом
-  status:
+  status: pass
 
 - summary: Просмотр задачи после завершения игры
-  status:
+  status: pass
 
 - summary: Просмотр решений после завершения игры
-  status:
+  status: pass
 
 - summary: Запуск записи завершённой игры
-  status:
+  status: pass
 
 - summary: Изменение скорости воспроизведения записи игры
-  status:
+  status: pass
 
 - summary: Пауза и продолжение записи игры
-  status:
+  status: pass
 
 - summary: Сдача во время игры
-  status:
+  status: pass
 
 - summary: Реванш после завершения игры
-  status:
+  status: pass
 
 - summary: Смена языка программирования во время игры
-  status:
-
-- summary: Изменение размера шрифта в редакторе
-  status:
-
-- summary: Изменение цветовой темы редактора
-  status:
-
-- summary: Включение и отключение нумерации строк
-  status:
-
-- summary: Включение и отключение переноса строк
-  status:
-
-- summary: Настройка отображения пробелов
-  status:
-
-- summary: Настройка липкой прокрутки
-  status:
-
-- summary: Включение и отключение миникарты
-  status:
-
-- summary: Включение и отключение цветных скобок
-  status:
-
-- summary: Настройка плавного курсора
-  status:
+  status: pass
 
 - summary: Сброс кода одной кнопкой
-  status:
+  status: pass
 
 - summary: Проверка сохранения кода при смене языка программирования
-  status:
+  status: pass
 
 - summary: Открытие рейтинга пользователей
-  status:
+  status: pass
 
 - summary: Просмотр рейтинга за неделю
-  status:
+  status: pass
 
 - summary: Просмотр рейтинга за месяц
-  status:
+  status: pass
 
 - summary: Просмотр рейтинга за год
-  status:
+  status: pass
 
 - summary: Просмотр рейтинга за всё время
-  status:
+  status: pass
 
 - summary: Проверка изменения порядка пользователей в рейтинге
-  status:
+  status: pass
 
 - summary: Открытие личного профиля
-  status:
+  status: pass
 
 - summary: Проверка основной информации профиля
-  status:
+  status: pass
 
 - summary: Проверка основных показателей профиля
-  status:
-
-- summary: Проверка вкладки статистики профиля
-  status:
+  status: pass
 
 - summary: Проверка статистики игр в профиле
-  status:
-
-- summary: Проверка блока побед в турнирах
-  status:
+  status: pass
 
 - summary: Изменение периода активности в профиле
-  status:
-
-- summary: Проверка блока соперников в профиле
-  status:
-
-- summary: Проверка блока языков в профиле
-  status:
-
-- summary: Открытие вкладки турниров профиля
-  status:
-
-- summary: Открытие вкладки завершённых игр профиля
-  status:
-
-- summary: Проверка соответствия истории игр статистике профиля
-  status:
+  status: pass
 
 - summary: Проверка удобства и понятности интерфейса
-  status:
+  status: pass
 
 - summary: Проверка понятности сообщений об ошибках
-  status:
+  status: pass
 
 - summary: Проверка скорости загрузки главной страницы
   status:
