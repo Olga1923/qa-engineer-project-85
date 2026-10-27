@@ -6,7 +6,7 @@
   status: pass
 
 - summary: Регистрация с никнеймом максимальной допустимой длины
-  status:
+  status: pass
 
 - summary: Регистрация с никнеймом короче минимальной длины
   status: pass
