@@ -206,43 +206,43 @@
   status: pass
 
 - summary: Проверка скорости загрузки главной страницы
-  status:
+  status: pass
 
 - summary: Проверка скорости открытия модального окна создания игры
-  status:
+  status: pass
 
 - summary: Проверка скорости обновления состояния игры во время матча
-  status:
+  status: pass
 
 - summary: Проверка синхронизации состояния игры между двумя игроками
-  status:
+  status: pass
 
 - summary: Проверка защиты личных данных пользователя от неавторизованного доступа
-  status:
+  status: pass
 
 - summary: Проверка доступа к защищённым страницам без авторизации
-  status:
+  status: pass
 
 - summary: Проверка завершения пользовательской сессии после выхода из аккаунта
-  status:
+  status: pass
 
 - summary: Проверка отсутствия пароля в URL и использования HTTPS
-  status:
+  status: pass
 
 - summary: Проверка отображения сайта на мобильных устройствах
-  status:
+  status: pass
 
 - summary: Проверка формы создания игры на мобильных устройствах
-  status:
+  status: pass
 
 - summary: Проверка игрового редактора на мобильных устройствах
-  status:
+  status: pass
 
 - summary: Проверка совместимости сайта с браузером Google Chrome
-  status:
+  status: pass
 
 - summary: Проверка совместимости сайта с браузером Mozilla Firefox
-  status:
+  status: pass
 
 - summary: Проверка совместимости сайта с браузером Microsoft Edge
-  status:
+  status: pass
